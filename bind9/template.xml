@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<formatVersion>4</formatVersion>
+	<description></description>
+	<events>
+	</events>
+	<templates>
+		<template id="4463">
+			<guid>95712540-d234-417a-a404-239e1043925c</guid>
+			<name>Bind9</name>
+			<flags>1</flags>
+			<path>
+				<element id="1">Service checks</element>
+			</path>
+			<dataCollection>
+				<dci id="9616">
+					<guid>e509c235-4e8e-4f16-95d4-bf7e062a9263</guid>
+					<name>Process.WkSet(&quot;named&quot;)</name>
+					<description>Physical memory used by process bind9</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="9617">
+					<guid>bdef9047-3f9a-49fc-a5b6-ea41ee15c064</guid>
+					<name>Process.Count(&quot;named&quot;)</name>
+					<description>Process count - bind9</description>
+					<dataType>1</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<thresholds>
+						<threshold id="1">
+							<function>0</function>
+							<condition>1</condition>
+							<value>0</value>
+							<activationEvent>SYS_THRESHOLD_REACHED</activationEvent>
+							<deactivationEvent>SYS_THRESHOLD_REARMED</deactivationEvent>
+							<sampleCount>1</sampleCount>
+							<repeatInterval>-1</repeatInterval>
+							<script></script>
+						</threshold>
+					</thresholds>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10463">
+					<guid>d7138c39-74ac-4cbf-9bba-f06127e52cb0</guid>
+					<name>bind9.Notifies.Received.IPv6</name>
+					<description>bind9 - IPv6 notifies received per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10464">
+					<guid>3de28b26-c3c4-4e9a-89e4-f9038b9f54ed</guid>
+					<name>bind9.Requests.Received.IPv4</name>
+					<description>bind9 - IPv4 requests received per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10465">
+					<guid>bf6b3e43-b58b-40d5-9eba-2b2898752636</guid>
+					<name>bind9.Requests.Received.IPv6</name>
+					<description>bind9 - IPv6 requests received per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10466">
+					<guid>75af1d81-b3a4-4ec7-a6d1-843e427c1678</guid>
+					<name>bind9.Requests.Recursive.Rejected</name>
+					<description>bind9 - recursive queries rejected per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10467">
+					<guid>d6b7da65-a40f-4927-a921-39c258fa3f85</guid>
+					<name>bind9.Answers.Auth</name>
+					<description>bind9 - queries resulted in authoritative answer per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10468">
+					<guid>a6732566-d6c3-4cb6-99d7-dffe3aaeec34</guid>
+					<name>bind9.Answers.NonAuth</name>
+					<description>bind9 - queries resulted in non-authoritative answer per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10469">
+					<guid>82a8e9e2-2bfa-4141-afd9-efcb7ceb69a8</guid>
+					<name>bind9.Answers.nxrrset</name>
+					<description>bind9 - queries resulted in nxrrset per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10470">
+					<guid>916ff429-0edb-4039-813a-ab4d91bccef5</guid>
+					<name>bind9.Answers.SERVFAIL</name>
+					<description>bind9 - queries resulted in SERVFAIL per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10471">
+					<guid>88f47861-72fe-46a7-8579-d57c81cbf71b</guid>
+					<name>bind9.Answers.NXDOMAIN</name>
+					<description>bind9 - queries resulted in NXDOMAIN per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10472">
+					<guid>0c3cf05d-2949-41a9-8a0b-b6536cc03253</guid>
+					<name>bind9.Answers.Recursive</name>
+					<description>bind9 - queries caused recursion per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10473">
+					<guid>4638a5dc-abfe-48ba-8ee0-7629dee94933</guid>
+					<name>bind9.Requests.Failed.Other</name>
+					<description>bind9 - other query failures per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10474">
+					<guid>cfda1b27-a363-4d69-b240-0c41bd5ae07e</guid>
+					<name>bind9.Notifies.Sent.IPv4</name>
+					<description>bind9 - IPv4 notifies sent per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10475">
+					<guid>5e3b0127-a3cf-4386-9cd5-ea627dd4448e</guid>
+					<name>bind9.Notifies.Sent.IPv6</name>
+					<description>bind9 - IPv6 notifies sent per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="10476">
+					<guid>4583c783-81ca-4f29-af38-0763624f9a81</guid>
+					<name>bind9.Notifies.Received.IPv4</name>
+					<description>bind9 - IPv4 notifies received per minute</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<interval>0</interval>
+					<retention>0</retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>3</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<instanceDiscoveryMethod>0</instanceDiscoveryMethod>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;minYScaleValue&gt;1&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData></instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+			</dataCollection>
+			<filter>searchProcess = &quot;named&quot;;&#x0D;&#x0A;procArray = AgentReadList($node, &quot;System.ProcessList&quot;);&#x0D;&#x0A;&#x0D;&#x0A;if (procArray == null)&#x0D;&#x0A;  return false;&#x0D;&#x0A;&#x0D;&#x0A;foreach (process : procArray) {&#x0D;&#x0A;  if (index(process, searchProcess) != 0)&#x0D;&#x0A;    return true;&#x0D;&#x0A;}&#x0D;&#x0A;&#x0D;&#x0A;return false;&#x0D;&#x0A;</filter>
+		</template>
+	</templates>
+	<traps>
+	</traps>
+	<rules>
+	</rules>
+	<scripts>
+	</scripts>
+	<objectTools>
+	</objectTools>
+	<dciSummaryTables>
+	</dciSummaryTables>
+</configuration>
